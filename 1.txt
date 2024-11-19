@@ -4,11 +4,7 @@ Observations:
 
 1- No. of rows= 1372195
 2- No. of colums= 45
-3- Datatypes of columns: 
-   float= 26
-   int= 4
-   object= 15
-4- Columns:
+3- Columns:
    ['id', 'state_name', 'state_code', 'district_name', 'district_code',
        'subdistrict_name', 'subdistrict_code', 'cluster_name', 'village_name',
        'udise_village_code', 'pincode', 'ward', 'school_name',
@@ -21,7 +17,20 @@ Observations:
        'vii_students', 'viii_students', 'ix_students', 'x_students',
        'xi_students', 'xii_students', 'class_students',
        'class_with_pre_primary_students']
-5- 
+4- Datatypes of columns: 
+   float= 26 
+   ['district_code', 'subdistrict_code','pincode','longitude','latitude','class_from',
+  'class_to','pre_primary','class_rooms','other_rooms','total_teachers','pre_primary_students','i_students',
+  'ii_students','iii_students','iv_students','v_students','vi_students','vii_students','viii_students','ix_students',
+  'x_students','xi_students','xii_students','class_students','class_with_pre_primary_students']
+   
+   int= 4
+   ['id', 'state_code', 'udise_village_code', 'year_of_establishment']
+
+   object= 15 
+   ['state_name','district_name','subdistrict_name','cluster_name','village_name','ward','school_name','udise_school_code',
+   'school_category','school_type','management','status','location_type','aff_board_sec','aff_board_h_sec']
+
 
 Questions:
 1-
