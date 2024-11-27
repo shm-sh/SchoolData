@@ -1,11 +1,37 @@
-Kuch bhi Observe kiya ya koi bhi question dimaag mein aaya woh likhdo.
+Kuch bhi koi bhi question dimaag mein aaya woh likhdo.
 
 ok bhai
 
-Observations:
 
-1- No. of rows=
-2- No. of colums=
+💪 Observing Data - 
+Following Inferences I have made with your observations and ChatGPT (https://chatgpt.com/share/673c9e1e-e850-8004-b0b7-45810c351d8b)
 
-Questions:
-1-
+
+🧠1. No. of rows= 1372195
+🧠2. No. of colums= 45
+
+    (To check datatype in excel: 
+Inspect Data in Power Query
+Go to the Data tab.
+Click Get & Transform Data → From Table/Range.
+Load your data into Power Query Editor.
+Power Query will display the data types for each column (e.g., Text, Whole Number, Decimal Number).
+
+🧠3. Datatypes (no. of columns) [columns]: 
+
+Int (4) 
+['id', 'state_code', 'udise_village_code', 'year_of_establishment']
+
+Float (26) 
+['district_code', 'subdistrict_code','pincode','longitude','latitude','class_from',
+'class_to','pre_primary','class_rooms','other_rooms','total_teachers','pre_primary_students','i_students','ii_students','iii_students','iv_students','v_students','vi_students','vii_students','viii_students','ix_students','x_students','xi_students','xii_students','class_students','class_with_pre_primary_students']
+
+Object (15) ['state_name','district_name','subdistrict_name','cluster_name','village_name','ward','school_name','udise_school_code','school_category','school_type','management','status','location_type','aff_board_sec','aff_board_h_sec']
+
+
+
+
+
+💪Data cleaning in jupyter notebook
+DONE!!!! 
+Kal likhta hu details 'cleaned-basic-details-of-schools'
